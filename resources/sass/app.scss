@@ -1,0 +1,23 @@
+
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+@import 'node_modules/font-awesome/scss/font-awesome';
+// Bootstrap
+@import 'node_modules/bulma/bulma';
+
+// bulma vue modules
+@import  'node_modules/buefy/src/scss/buefy';
+
+.navbar-laravel {
+  background-color: $red;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+// Custom SASS Pages
+@import "overrides";
+@import "helpers";
+@import "styles";
